@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:json_serializable_flutter/screen/homePage.dart';
+import 'package:json_serializable_flutter/Screens/homePage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
        
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      home:  HomePage(),
     );
   }
 }
