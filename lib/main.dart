@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:json_serializable_flutter/Screens/homePage.dart';
+
+import 'Future/HomePage/View/homePage.dart';
 
 void main() {
   runApp(const MyApp());
